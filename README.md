@@ -7,6 +7,21 @@ KeyHacks shows methods to validate different API keys found on a Bug Bounty Prog
 
 @Gwen001 has scripted the entire process available here and it can be found [here](https://github.com/gwen001/pentest-tools/blob/master/keyhacks.sh)
 
+# 国内地图API:
+
+- 高德webapi
+```https://restapi.amap.com/v3/direction/walking?origin=116.434307,39.90909&destination=116.434446,39.90816&key=这里写key```
+- 高德jsapi
+```https://restapi.amap.com/v3/geocode/regeo?key=这里写key&s=rsv3&location=116.434446,39.90816&callback=jsonp_258885_&platform=JS```
+- 高德小程序定位
+```https://restapi.amap.com/v3/geocode/regeo?key=这里写key&location=117.19674%2C39.14784&extensions=all&s=rsx&platform=WXJS&appname=c589cf63f592ac13bcab35f8cd18f495&sdkversion=1.2.0&logversion=2.0```
+- 百度webapi
+```https://api.map.baidu.com/place/v2/search?query=ATM机&tag=银行®ion=北京&output=json&ak=这里写key```
+- 百度webapiIOS版
+```https://api.map.baidu.com/place/v2/search?query=ATM机&tag=银行®ion=北京&output=json&ak=这里写key=iPhone7%2C2&mcode=com.didapinche.taxi&os=12.5.6```
+- 腾讯webapi
+```https://apis.map.qq.com/ws/place/v1/search?keyword=酒店&boundary=nearby(39.908491,116.374328,1000)&key=这里写key```
+
 # Table of Contents
 
 - [ABTasty API Key](#ABTasty-API-Key)
